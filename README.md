@@ -1,26 +1,15 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# michaelsimsoe.com
+Made in a haste with Gatsby.js
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+### To do
 
-## Install
-
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
-```
-
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
-
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+- [x] Make "somehting"
+- [ ] Correct spelling in something above
+- [x] Deploy
+- [x] Add custom domain
+- [x] Add SSL
+- [ ] Make mobile first.. at least responsive
+- [ ] Make it a PWA (for fun.. and glory. always glory)
+- [ ] Add contact form
+- [ ] Add blog
+- [ ] Redisign.. do it all again.. never be happy

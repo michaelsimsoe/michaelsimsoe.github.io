@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
+import favicon from '../favicon.ico'
 
 import './index.css'
 
@@ -20,6 +21,7 @@ const Layout = ({ children, data }) => (
             'Michael Krøyserth-Simsø, michaelsimsoe, web-developer, frontend, norwegian',
         },
       ]}
+      link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
     />
     <div className="container">
       <Link to="/about/" className="link about-link">
