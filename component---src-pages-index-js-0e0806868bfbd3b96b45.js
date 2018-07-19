@@ -1,0 +1,2 @@
+webpackJsonp([35783957827783],{200:function(e,t,a){"use strict";function n(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var l=a(4),s=n(l),u=a(63),d=(n(u),function(){return s.default.createElement("div",{className:"text index-text"},s.default.createElement("h1",{className:"heading-index"},"Hi there,"),s.default.createElement("h3",{className:"subheading-index"},"I'm Michael Krøyserth-Simsø.."))});t.default=d,e.exports=t.default}});
+//# sourceMappingURL=component---src-pages-index-js-0e0806868bfbd3b96b45.js.map
