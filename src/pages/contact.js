@@ -71,7 +71,7 @@ const Contact = () => (
         </svg>
       </a> */}
     </div>
-    <Link className="link" to="/">
+    <Link className="link link-btn" to="/">
       Back
     </Link>
   </div>

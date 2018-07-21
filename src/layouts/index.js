@@ -24,10 +24,22 @@ const Layout = ({ children, data }) => (
       link={[{ rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }]}
     />
     <div className="container">
-      <Link to="/about/" className="link about-link">
+      <Link
+        to="/about/"
+        activeStyle={{
+          borderBottom: '2px solid #fff',
+        }}
+        className="link about-link"
+      >
         About
       </Link>
-      <Link to="/contact/" className="link contact-link">
+      <Link
+        to="/contact/"
+        activeStyle={{
+          borderBottom: '2px solid #fff',
+        }}
+        className="link contact-link"
+      >
         Contact
       </Link>
       <div className="triangle-top" />

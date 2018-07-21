@@ -21,7 +21,7 @@ const About = () => (
         I aim to be <b>the best</b> at Javascript.. Err.. Moderately good, at
         least.
       </p>
-      <Link className="link" to="/">
+      <Link className="link link-btn" to="/">
         Back
       </Link>
     </div>
