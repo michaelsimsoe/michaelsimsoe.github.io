@@ -31,7 +31,7 @@ const Layout = ({ children, data }) => (
         }}
         className="link about-link"
       >
-        About
+        ABOUT
       </Link>
       <Link
         to="/contact/"
@@ -40,7 +40,7 @@ const Layout = ({ children, data }) => (
         }}
         className="link contact-link"
       >
-        Contact
+        CONTACT
       </Link>
       <div className="triangle-top" />
       {children()}

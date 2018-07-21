@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
+import CvModal from '../components/CvModal'
+
 const About = () => (
   <div className="text about-text">
     <h1>
@@ -24,6 +26,7 @@ const About = () => (
       <Link className="link link-btn" to="/">
         Back
       </Link>
+      <CvModal />
     </div>
   </div>
 )
