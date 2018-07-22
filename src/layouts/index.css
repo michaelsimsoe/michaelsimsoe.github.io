@@ -201,9 +201,11 @@ body {
 
 .modal-btn {
   background-color: rgb(34,33,39);
+  height: 35px;
   color: #fff;
   font-size: 16px;
   padding: 4px;
+  cursor: pointer;
 }
 
 .modal-btn-container {
@@ -212,11 +214,40 @@ body {
 }
 
 .custom-modal {
-  color: black;
+  color: rgb(34,33,39);
 }
 
 .custom-modal-container {
   padding: 15px;
+}
+
+.custom-modal-container strong {
+  display: inline-block;
+  animation: skills 2s ease-in-out infinite alternate;
+}
+
+@keyframes skills {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.05);
+  }
+}
+
+.custom-close {
+  cursor: pointer;
+}
+
+.custom-close:hover {
+  fill: #fff;
+  background-color: rgb(34,33,39);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
 }
 
 @keyframes moveInBottom {

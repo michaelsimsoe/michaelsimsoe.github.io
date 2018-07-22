@@ -23,10 +23,12 @@ const About = () => (
         I aim to be <b>the best</b> at Javascript.. Err.. Moderately good, at
         least.
       </p>
-      <Link className="link link-btn" to="/">
-        Back
-      </Link>
-      <CvModal />
+      <div className="buttons">
+        <Link className="link link-btn" to="/">
+          Back
+        </Link>
+        <CvModal />
+      </div>
     </div>
   </div>
 )
