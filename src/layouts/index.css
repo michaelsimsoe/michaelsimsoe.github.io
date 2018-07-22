@@ -319,6 +319,10 @@ body {
     padding: 10px;
     border-radius: 1px;
   }
+
+  .modal-btn {
+    height: 51px;
+  }
 /* Contact page */
   .contact-text {
     width: 90%;

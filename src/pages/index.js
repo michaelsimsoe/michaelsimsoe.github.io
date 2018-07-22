@@ -5,8 +5,8 @@ const IndexPage = () => (
   <div className="text index-text">
     {/* <Link to="/about/">About</Link>
     <Link to="/contact/">Contact</Link> */}
-    <h1 className="heading-index">Hi there,</h1>
-    <h3 className="subheading-index">I'm Michael Krøyserth-Simsø..</h3>
+    <h1 className="heading-index">Hi there!</h1>
+    <h3 className="subheading-index">I'm Michael Krøyserth-Simsø&hellip;</h3>
   </div>
 )
 
